@@ -4,7 +4,7 @@ namespace App\Services\Payment\DTO\Responses;
 
 use App\Services\DataTransferUtilities;
 
-class PaymentResponse extends DataTransferUtilities
+final class PaymentResponse extends DataTransferUtilities
 {
     public function __construct(
         public readonly string $transactionId,

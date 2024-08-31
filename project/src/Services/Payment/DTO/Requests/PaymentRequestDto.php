@@ -5,7 +5,7 @@ namespace App\Services\Payment\DTO\Requests;
 use App\Services\DataTransferUtilities;
 use Symfony\Component\Validator\Constraints as Assert;
 
-class PaymentRequestDto extends DataTransferUtilities
+final class PaymentRequestDto extends DataTransferUtilities
 {
     public function __construct(
 
